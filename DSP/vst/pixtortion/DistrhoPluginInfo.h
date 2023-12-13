@@ -1,0 +1,14 @@
+#ifndef DISTRHO_PLUGIN_INFO_H_INCLUDED
+#define DISTRHO_PLUGIN_INFO_H_INCLUDED
+
+#define DISTRHO_PLUGIN_BRAND "PixellQ"
+#define DISTRHO_PLUGIN_NAME  "Pixtortion"
+#define DISTRHO_PLUGIN_URI   "https://pixellq.com"
+//#define DISTRHO_PLUGIN_CLAP_ID "studio.pixellq.pixdelay"
+
+#define DISTRHO_PLUGIN_HAS_UI 0
+#define DISTRHO_PLUGIN_IS_RT_SAFE 1
+#define DISTRHO_PLUGIN_NUM_INPUTS 1
+#define DISTRHO_PLUGIN_NUM_OUTPUTS 1
+#define DISTRHO_PLUGIN_WANT_LATENCY 0
+#endif
