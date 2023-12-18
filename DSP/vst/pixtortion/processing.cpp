@@ -22,7 +22,7 @@ protected:
 	}
 
 	const char*  getLicense() const override {
-		return "MIT";
+		return "----";
 	}
 
 	uint32_t getVersion() const override {
@@ -49,7 +49,7 @@ protected:
 	}
 
 	void setParameterValue(uint32_t index, float value) override {
-		amount = value;
+		amount = value/10;
 	}
 
 	void run(const float **inputs, float **outputs, uint32_t frames) override {
