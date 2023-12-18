@@ -30,7 +30,7 @@ protected:
 	}
 
 	const char*  getLicense() const override {
-		return "MIT";
+		return "----";
 	}
 
 	uint32_t getVersion() const override {
